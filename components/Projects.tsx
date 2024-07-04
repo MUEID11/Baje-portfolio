@@ -1,16 +1,22 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import Image from "next/image";
-import {
-  IconSignature,
-
-} from "@tabler/icons-react";
+import { IconSignature } from "@tabler/icons-react";
 
 export function Projects() {
   const items = [
     {
-      title: "The Digital Revolution",
-      description: "Dive into the transformative power of technology.",
+      title: "The Scholar's Pathway",
+      description: (
+        <a
+          href="https://github.com/MUEID11/Scholars-Pathway.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          GitHub Repository
+        </a>
+      ),
       liveLink: "https://b9-assignment11.web.app",
       header: (
         <Image
@@ -25,8 +31,17 @@ export function Projects() {
       icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "The Digital Revolution",
-      description: "Dive into the transformative power of technology.",
+      title: "The Art Revolution",
+      description: (
+        <a
+          href="https://github.com/MUEID11/Craftify-Client.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          GitHub Repository
+        </a>
+      ),
       liveLink: "https://b9-assignment10.firebaseapp.com",
       header: (
         <Image
@@ -42,9 +57,17 @@ export function Projects() {
     },
     {
       title: "The Digital Revolution",
-      description: "Dive into the transformative power of technology.",
-      liveLink:
-        "https://6686292ffee1926ae8a9b797--celebrated-yeot-69800a.netlify.app",
+      description: (
+        <a
+          href="https://github.com/MUEID11/infotec-solution.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          GitHub Repository
+        </a>
+      ),
+      liveLink: "https://6686292ffee1926ae8a9b797--celebrated-yeot-69800a.netlify.app",
       header: (
         <Image
           src="/Projects/Screenshot 2024-07-04 104342.png"
@@ -59,7 +82,16 @@ export function Projects() {
     },
     {
       title: "The Digital Revolution of teaching services",
-      description: "Dive into the transformative power of technology of booking online teaching services.",
+      description: (
+        <a
+          href="https://github.com/MUEID11/Mastaar-Booking-Services.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          GitHub Repository
+        </a>
+      ),
       liveLink: "https://b9-assignment11-client.web.app",
       header: (
         <Image
@@ -93,7 +125,7 @@ export function Projects() {
             title={item.title}
             description={
               <>
-                <p>{item.description}</p>
+                {item.description}
                 <a
                   href={item.liveLink}
                   target="_blank"
