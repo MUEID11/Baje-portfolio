@@ -28,7 +28,7 @@ export function Hero() {
               }}
               className="text-2xl text-left md:text-4xl lg:text-5xl font-bold text-white leading-snug lg:leading-normal flex-col items-center"
             >
-              Greetings! I'm <br />
+              Greetings! I&aposm <br />
               <Highlight className="text-black dark:text-white uppercase">
                 Md Mehedi Hasan <br />
               </Highlight>
@@ -36,7 +36,7 @@ export function Hero() {
                 A Front-end Web Developer <br />
                 Explore my
                 <FlipWords words={words} /> <br />
-                I'm excited to share my journey with{" "}
+                I&aposm excited to share my journey with{" "}
                 <span className="text-blue-500 dark:text-blue-500 font-bold">
                   you!
                 </span>{" "}

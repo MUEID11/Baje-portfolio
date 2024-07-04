@@ -34,7 +34,7 @@ export function Skills() {
   return (
     <div>
       <div>
-        <h2 className="text-2xl sm:text-5xl text-center mt-20 mb-10 font-bold" id='skills'>
+        <h2 className="text-2xl sm:text-5xl text-center mt-20 mb-10 font-bold text-white" id='skills'>
           My Skills
         </h2>
       </div>
