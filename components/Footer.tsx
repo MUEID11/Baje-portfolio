@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black-300 text-center text-white-600 w-screen">
+    <footer className="bg-black-300 text-center text-white w-screen">
       <div className="flex justify-center items-center border-b p-4">
         <div className="hidden lg:block mr-5">
           <span>Get connected with us on social networks:</span>
@@ -29,10 +29,10 @@ const Footer: React.FC = () => {
 
       <div className="text-center p-4 bg-black-200">
         © {new Date().getFullYear()} All rights reserved: 
-        {/* <a className="text-gray-100 font-bold" href="https://yourwebsite.com">
+        <a className="text-gray-100 font-bold" href="https://github.com/MUEID11/Baje-portfolio">
           {" "}
-          YourWebsite.com
-        </a> */}
+          Md Mehedi Hasan
+        </a>
       </div>
     </footer>
   );

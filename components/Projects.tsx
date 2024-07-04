@@ -80,7 +80,7 @@ export function Projects() {
     <div>
       <div>
         <h2
-          className="text-2xl sm:text-5xl text-center mt-20 mb-10 font-bold"
+          className="text-2xl sm:text-5xl text-center mt-20 mb-10 font-bold text-white"
           id="projects"
         >
           My Projects

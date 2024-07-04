@@ -45,7 +45,7 @@ export function Skills() {
             containerClassName=""
             className="w-full h-full"
           >
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center text-white">
               {icon}
             </div>
           </WobbleCard>

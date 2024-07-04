@@ -7,7 +7,7 @@ const Qualification = () => {
     <div>
       <div>
         <h2
-          className="text-2xl sm:text-5xl text-center mt-20 mb-10 font-bold"
+          className="text-2xl sm:text-5xl text-center mt-20 mb-10 font-bold text-white"
           id="education"
         >
           Academic Qualifications
@@ -20,7 +20,7 @@ const Qualification = () => {
           <GlowingStarsDescription>
             Rangpur Polytechnic Institute, Rangpur, Bangladesh.
           </GlowingStarsDescription>
-          <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
+          <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center text-white">
             <FaGraduationCap />
           </div>
         </div>
