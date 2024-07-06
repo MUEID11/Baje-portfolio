@@ -10,7 +10,7 @@ This portfolio showcases Md Mehedi Hasan's skills, projects, and contact informa
 
 - Next.js
 - React
-- CSS (or any styling libraries you used)
+- CSS (tailwind)
 
 ## Features
 
