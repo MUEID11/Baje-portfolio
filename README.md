@@ -24,7 +24,7 @@ The website is deployed using Vercel and can be accessed at [Md Mehedi Hasan's P
 
 ## Screenshots
 
-Include screenshots or GIFs of your website here if applicable.
+![Homepage Screenshot](./public/homepage.png)
 
 ## Setup
 
