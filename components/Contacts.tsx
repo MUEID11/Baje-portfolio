@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import toast from "react-hot-toast";
+import { Meteors } from "./ui/meteors";
+
 
 const Contact: React.FC = () => {
   const [formState, setFormState] = useState({
@@ -63,11 +65,11 @@ const Contact: React.FC = () => {
       </div>
       <div
         id="contact"
-        className="my-16 mx-10 bg-black text-white flex items-center justify-center"
+        className="my-16 mx-2 sm:mx-10 bg-black-300 text-white flex items-center justify-center"
       >
         <form
           onSubmit={sendMail}
-          className="bg-gray-900 p-8 rounded-lg w-full shadow-lg"
+          className="bg-gray-900 p-2 sm:p-8 rounded-lg w-full shadow-lg"
         >
           <div className="flex gap-5 w-full flex-col md:flex-row">
             <div className="flex flex-col mb-4 w-full  md:w-1/2">
@@ -77,6 +79,7 @@ const Contact: React.FC = () => {
               <input
                 className="p-3 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 type="text"
+                required
                 id="subject"
                 placeholder="Subject"
                 value={formState.subject}
@@ -91,6 +94,7 @@ const Contact: React.FC = () => {
                 className="p-3 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 type="email"
                 id="email"
+                required
                 placeholder="Your Email"
                 value={formState.email}
                 onChange={handleChange}
@@ -104,6 +108,7 @@ const Contact: React.FC = () => {
             <textarea
               className="p-3 bg-gray-800 text-white rounded-lg h-32 focus:outline-none focus:ring-2 focus:ring-blue-500"
               id="message"
+              required
               placeholder="Your Message"
               value={formState.message}
               onChange={handleChange}

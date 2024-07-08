@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Projects } from "@/components/Projects";
 import Qualification from "@/components/Qualification";
 import {Skills} from "@/components/Skills"
+import { Meteors } from "@/components/ui/meteors";
 import { Toaster } from "react-hot-toast";
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <Footer />
       <Toaster />
+      <Meteors number={30} className="sm:hidden" />
     </main>
   );
 }

@@ -38,7 +38,7 @@ export function Skills() {
           My Skills
         </h2>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mx-auto w-full p-16">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 mx-auto w-full sm:p-16 p-2">
         {icons.map((icon, index) => (
           <WobbleCard
             key={index}

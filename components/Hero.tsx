@@ -4,6 +4,7 @@ import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 import { FlipWords } from "./ui/flip-words";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import MagicButton from "./MagicButton";
+import { LinkPreview } from "./ui/link-preview";
 // import Image from "next/image";
 // import logo from "@/public/mwhitelogo.png";
 export function Hero() {
@@ -11,8 +12,8 @@ export function Hero() {
   return (
     <div>
       <div>
-        <HeroHighlight className="px-4 sm:px-8">
-          <div className="px-4 max-w-4xl mx-auto ">
+        <HeroHighlight className="px-1 sm:px-8">
+          <div className="px-2 sm:px-4 max-w-4xl mx-auto ">
             <motion.h1
               initial={{
                 opacity: 0,
@@ -35,8 +36,8 @@ export function Hero() {
               <div className="text-2xl md:text-3xl mx-auto py-6 font-normal text-neutral-300 leading-snug">
                 A Front-end Web Developer <br />
                 Explore my
-                <FlipWords words={words} /> <br />
-                I am excited to share my journey with{" "}
+                <FlipWords words={words} /> <br />I am excited to share my
+                journey with{" "}
                 <span className="text-blue-500 dark:text-blue-500 font-bold">
                   you!
                 </span>{" "}
@@ -46,14 +47,26 @@ export function Hero() {
               <div>
                 <ul className="text-blue-500 text-4xl flex items-center gap-5">
                   <li>
-                    <a href="https://www.linkedin.com/in/mehedirangpur">
+                    <LinkPreview
+                      url="https://www.linkedin.com/in/mehedirangpur"
+                      imageSrc="/LinkPreviewImages/linkdin.png"
+                      isStatic
+                      className="font-bold text-blue-400"
+
+                    >
                       <FaLinkedin />
-                    </a>
+                    </LinkPreview>
                   </li>
                   <li>
-                    <a href="https://github.com/MUEID11">
+                    <LinkPreview
+                      url="https://github.com/MUEID11"
+                      imageSrc="/LinkPreviewImages/github.png"
+                      isStatic
+                      className="font-bold text-blue-400"
+
+                    >
                       <FaGithub />
-                    </a>
+                    </LinkPreview>
                   </li>
                 </ul>
               </div>

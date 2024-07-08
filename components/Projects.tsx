@@ -118,7 +118,7 @@ export function Projects() {
           My Projects
         </h2>
       </div>
-      <BentoGrid className="max-w-7xl mx-auto md:auto-rows-[22rem] p-14">
+      <BentoGrid className="max-w-7xl mx-auto md:auto-rows-[22rem] sm:p-14 p-2">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
