@@ -6,10 +6,10 @@ import { IconSignature } from "@tabler/icons-react";
 export function Projects() {
   const items = [
     {
-      title: "The Scholar's Pathway",
+      title: "InBrief, a web-base news aggregator(Team Project)",
       description: (
         <a
-          href="https://github.com/MUEID11/Scholars-Pathway.git"
+          href="https://github.com/MUEID11/InBrief.git"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline"
@@ -17,19 +17,20 @@ export function Projects() {
           GitHub Repository
         </a>
       ),
-      liveLink: "https://b9-assignment11.web.app",
+      liveLink: "https://inbrief-3d9ce.web.app/",
       header: (
         <Image
-          src="/Projects/Screenshot 2024-07-04 120203.png"
+          src="https://res.cloudinary.com/ddaa3wb4w/image/upload/v1730557216/Screenshot_2024-11-02_201738_a3rjo7.png"
           alt="Project Image 2"
-          width={1000}
+          width={500}
           height={300}
           className="bg-cover bg-center overflow-auto rounded-md"
         />
       ),
-      className: "md:col-span-3",
+      className: "md:col-span-2",
       icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
+    
     {
       title: "The Art Revolution",
       description: (
@@ -55,31 +56,7 @@ export function Projects() {
       className: "md:col-span-2",
       icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
-    {
-      title: "InBrief, a web-base news aggregator(Team Project)",
-      description: (
-        <a
-          href="https://github.com/MUEID11/InBrief.git"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
-        >
-          GitHub Repository
-        </a>
-      ),
-      liveLink: "https://inbrief-3d9ce.web.app/",
-      header: (
-        <Image
-          src="https://res.cloudinary.com/ddaa3wb4w/image/upload/v1730557216/Screenshot_2024-11-02_201738_a3rjo7.png"
-          alt="Project Image 2"
-          width={500}
-          height={300}
-          className="bg-cover bg-center overflow-auto rounded-md"
-        />
-      ),
-      className: "md:col-span-2",
-      icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    },
+
     {
       title: "The Digital Revolution of teaching services",
       description: (
@@ -96,6 +73,31 @@ export function Projects() {
       header: (
         <Image
           src="/Projects/Screenshot 2024-07-04 115547.png"
+          alt="Project Image 2"
+          width={1000}
+          height={300}
+          className="bg-cover bg-center overflow-auto rounded-md"
+        />
+      ),
+      className: "md:col-span-3",
+      icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      title: "The Scholar's Pathway",
+      description: (
+        <a
+          href="https://github.com/MUEID11/Scholars-Pathway.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          GitHub Repository
+        </a>
+      ),
+      liveLink: "https://b9-assignment11.web.app",
+      header: (
+        <Image
+          src="/Projects/Screenshot 2024-07-04 120203.png"
           alt="Project Image 2"
           width={1000}
           height={300}
