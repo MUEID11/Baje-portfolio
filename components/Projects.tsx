@@ -71,7 +71,7 @@ export function Projects() {
       header: (
         <Image
           src="/Project/Screenshot 2024-11-02 201738.png"
-          alt="Project Image 2"
+          alt="Project Image 3"
           width={500}
           height={300}
           className="bg-cover bg-center overflow-auto rounded-md"
@@ -96,7 +96,7 @@ export function Projects() {
       header: (
         <Image
           src="/Projects/Screenshot 2024-07-04 115547.png"
-          alt="Project Image 2"
+          alt="Project Image 4"
           width={1000}
           height={300}
           className="bg-cover bg-center overflow-auto rounded-md"
