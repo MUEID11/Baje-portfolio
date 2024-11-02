@@ -56,10 +56,10 @@ export function Projects() {
       icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "The Digital Revolution",
+      title: "InBrief, a web-base news aggregator(Team Project)",
       description: (
         <a
-          href="https://github.com/MUEID11/infotec-solution.git"
+          href="https://github.com/MUEID11/InBrief.git"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline"
@@ -67,10 +67,10 @@ export function Projects() {
           GitHub Repository
         </a>
       ),
-      liveLink: "https://6686292ffee1926ae8a9b797--celebrated-yeot-69800a.netlify.app",
+      liveLink: "https://inbrief-3d9ce.web.app/",
       header: (
         <Image
-          src="/Projects/Screenshot 2024-07-04 104342.png"
+          src="https://res.cloudinary.com/ddaa3wb4w/image/upload/v1730557216/Screenshot_2024-11-02_201738_a3rjo7.png"
           alt="Project Image 2"
           width={500}
           height={300}
