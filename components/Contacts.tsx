@@ -59,13 +59,13 @@ const Contact: React.FC = () => {
   return (
     <div>
       <div className="rounded-lg">
-        <h2 className="text-2xl sm:text-5xl text-center mt-20 mb-10 font-bold text-white">
+        <h2 className="text-2xl sm:text-5xl text-center sm:mt-20 mt-12 smLmb-10 mb-4 font-bold text-white">
           Contact Me
         </h2>
       </div>
       <div
         id="contact"
-        className="my-16 mx-2 sm:mx-10 bg-black-300 text-white flex items-center justify-center"
+        className="my-6 sm:my-16 mx-2 sm:mx-10 bg-black-300 text-white flex items-center justify-center"
       >
         <form
           onSubmit={sendMail}

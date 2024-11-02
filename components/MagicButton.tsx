@@ -5,7 +5,7 @@ const MagicButton = () => {
   return (
     <div className="flex flex-col sm:flex-row gap-4 mt-6 mr-4">
       <a
-        href="https://drive.google.com/drive/u/0/folders/1sxU5GlyWm-wz6OFJ-Dp3G_zMXEt2OxoB"
+        href="https://drive.google.com/file/d/1ZE_TUsTB-s0Ur27iq65VHmFNbBjW5KET"
         download="mdmehedihasanwebdeveloper.pdf"
         className="px-5 py-2.5 relative rounded group font-medium text-white inline-block text-sm"
       >
