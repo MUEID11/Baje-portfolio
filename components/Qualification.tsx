@@ -15,6 +15,13 @@ const Qualification = () => {
       </div>
       <div className="flex items-center justify-center antialiased sm:my-16 my-6">
       <GlowingStarsBackgroundCard>
+        <GlowingStarsTitle>BSc In CSE</GlowingStarsTitle>
+        <div className="flex justify-between items-end">
+          <GlowingStarsDescription>
+            Northern University Bangladesh.
+          </GlowingStarsDescription>
+          <span className="text-white">2025 - Present</span>
+        </div>
         <GlowingStarsTitle>Diploma In Civil Engineering</GlowingStarsTitle>
         <div className="flex justify-between items-end">
           <GlowingStarsDescription>

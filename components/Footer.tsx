@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <span>Get connected with us on social networks:</span>
         </div>
         <div className="flex space-x-4">
-          <a target="_blank" href="https://www.facebook.com/mueid11" className="text-gray-100">
+          <a target="_blank" href="https://www.facebook.com/md.mehedi.hasan.129121" className="text-gray-100">
             <FaFacebook />
           </a>
           <a target="_blank" href="https://x.com/mehedirangpur3" className="text-gray-100">
